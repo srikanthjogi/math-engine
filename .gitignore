@@ -1,0 +1,9 @@
+# Ignore object files
+*.o
+
+# Ignore executables
+math_app
+
+# Ignore other build files (optional)
+*.exe
+*.out
