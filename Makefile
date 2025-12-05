@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-Iinclude -Wall
 
-SRCS=$(wildcard src/arithmetic/*.c src/algebra/*.c src/utils/*.c src/main.c)
+SRCS=$(wildcard src/arithmetic/*.c src/algebra/*.c src/utils/*.c src/statistics/*.c src/main.c)
 OBJS=$(SRCS:.c=.o)
 
 TARGET=math_app
