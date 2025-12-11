@@ -64,3 +64,7 @@ math_engine/
 
 Development branch initialized for active development.
 
+## Versioning
+The project uses semantic versioning (MAJOR.MINOR.PATCH).
+Current version is stored in the VERSION file.
+
