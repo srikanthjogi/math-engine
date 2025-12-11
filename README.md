@@ -66,5 +66,5 @@ Development branch initialized for active development.
 
 ## Versioning
 The project uses semantic versioning (MAJOR.MINOR.PATCH).
-Current version is stored in the VERSION file.
+Current version is stored in the VERSION file.This is demo project setup.
 
