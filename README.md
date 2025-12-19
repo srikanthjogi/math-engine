@@ -39,27 +39,27 @@ This project is also designed for Git practice: branching, merging, and semantic
 
 ## Project Structure
 math_engine/
-.
-├── include
-│   ├── algebra.h
-│   ├── arithmetic.h
-│   ├── input.h
-│   └── logger.h
+├── include/
+│   ├── algebra.h
+│   ├── arithmetic.h
+│   ├── input.h
+│   └── logger.h
+├── src/
+│   ├── algebra/
+│   │   ├── matrix.c
+│   │   └── quadratic.c
+│   ├── arithmetic/
+│   │   ├── add.c
+│   │   ├── div.c
+│   │   ├── mul.c
+│   │   └── sub.c
+│   ├── utils/
+│   │   ├── input.c
+│   │   └── logger.c
+│   └── main.c
 ├── Makefile
-├── README.md
-└── src
-    ├── algebra
-    │   ├── matrix.c
-    │   └── quadratic.c
-    ├── arithmetic
-    │   ├── add.c
-    │   ├── div.c
-    │   ├── mul.c
-    │   └── sub.c
-    ├── main.c
-    └── utils
-        ├── input.c
-        └── logger.c
+└── README.md
+
 ---
 
 Development branch initialized for active development.
